@@ -1,9 +1,7 @@
 public class Task8 {
-    public static void main(String args[]) {
-        int number = 1;
-        while (number <51) {
-            System.out.print(" " + number);
-            number++;
+    public static void main(String[] args) {
+        for (int number = 1; number <= 50; number++) {
+            System.out.print(number + " ");
         }
     }
 }
