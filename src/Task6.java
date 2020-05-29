@@ -13,7 +13,7 @@ public class Task6 {
         System.out.print("Введите начение Z: ");
         double z = in.nextDouble();
         double sredar = (x + y + z) / 3;
-        double delennoe = sredar / 2;
+        int delennoe = (int)sredar / 2;
 
         System.out.println("Среднее арифметическое чисел x,y,z: " + sredar);
         if(delennoe > 3) {

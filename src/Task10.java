@@ -18,9 +18,9 @@ public class Task10 {
                 matrix[i][j] = in.nextInt();
             }
         }
-        for (int i = 0; i < 1; i++) {
+        int i = 0; {
             for (int j = 0; j < m; j++) {
-                System.out.print(matrix[i][j] * 3 + "\t");
+                System.out.print(matrix[0][j] * 3 + "\t");
             }
             System.out.println();
         }
