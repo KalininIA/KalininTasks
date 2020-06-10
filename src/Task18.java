@@ -30,7 +30,7 @@ class Task18 {
                 new BufferedReader(
                         new InputStreamReader(System.in));
         try (FileWriter fw = new FileWriter("C:/test/test3.txt")) {
-            System.out.println("Вы можете ввести не более " + line +  " строк т.к. исходный файл содержит " + line + " строк(и).");
+            System.out.println("Вы можете ввести не более " + line +  " строк т.к. исходный файл содержит " + line + " строк.");
             System.out.println("Вводите текст в командную строку. Для перехода на новую строку используйте Enter.");
             System.out.println("Для досрочного прекращения записи текста в файл введите stop на новой строке, но это приведет к уменьшению количества строк файла записи.");
             do {
